@@ -5,7 +5,7 @@ import Container from "./components/Container";
 import EmptyState from "./components/EmptyState";
 import ListingCard from "./components/listings/ListingCard";
 import { SafeListing } from "./types";
-
+export const dynamic = 'auto';
 interface HomeProps {
   searchParams: IListingParams
 }
